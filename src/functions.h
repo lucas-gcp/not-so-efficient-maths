@@ -1,6 +1,6 @@
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 
-double sqrt(double n);
+float nr_sqrt(float n);
 
 #endif

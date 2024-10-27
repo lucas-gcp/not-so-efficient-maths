@@ -1,9 +1,9 @@
 #include "functions.h"
 #include <stdio.h>
 
-double sqrt(double n) {
+float nr_sqrt(float n) {
     
-    double x_k, x = n;
+    float x_k, x = n;
 
     do {
         x_k = x;
