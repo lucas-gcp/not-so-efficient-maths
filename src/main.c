@@ -3,7 +3,9 @@
 #include "functions.h"
 
 int main() {
-    Matrix Teste = matrix(2, 2);
+    int nrows, ncols;
+    scanf("%d %d", &nrows, &ncols);
+    Matrix Teste = matrix(nrows, ncols);
 
     matrix_read(Teste);
 
