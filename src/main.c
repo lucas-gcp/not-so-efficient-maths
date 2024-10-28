@@ -3,10 +3,13 @@
 #include "functions.h"
 
 int main() {
-    float M[3][3];
-    
-    readMatrix(3, 3, M);
-    printMatrix(3, 3, M);
+    Matrix Teste = matrix(2, 2);
+
+    matrix_read(Teste);
+
+    matrix_print(Teste);
+
+    matrix_free(Teste);
     
     return 0;
 }
