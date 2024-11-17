@@ -3,13 +3,11 @@
 
 // Polynomial Functions
 double nr_sqrt(double n);
+int ipowi(int base, int exp);
+double ipowd(double base, int exp);
 
 // Trigonometric Functions
 double t_sin(double n);
-
-// Exponencial Functions
-int powi(int base, int exp);
-double powd(double base, int exp);
 
 // Recursive Functions
 unsigned fact(unsigned n);
