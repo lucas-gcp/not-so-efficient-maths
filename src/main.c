@@ -1,17 +1,8 @@
-#include <stdio.h>
 #include "matrix.h"
 #include "functions.h"
+#include <stdio.h>
 
 int main() {
-    int nrows, ncols;
-    scanf("%d %d", &nrows, &ncols);
-    Matrix Teste = matrix(nrows, ncols);
-
-    matrix_read(Teste);
-
-    matrix_print(Teste);
-
-    matrix_free(Teste);
-    
+    printf("%lf\n", t_sin(1.61));    
     return 0;
 }

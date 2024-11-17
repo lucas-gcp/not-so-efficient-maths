@@ -1,5 +1,4 @@
 #include "functions.h"
-#include <stdio.h>
 
 double nr_sqrt(double n) {
     
